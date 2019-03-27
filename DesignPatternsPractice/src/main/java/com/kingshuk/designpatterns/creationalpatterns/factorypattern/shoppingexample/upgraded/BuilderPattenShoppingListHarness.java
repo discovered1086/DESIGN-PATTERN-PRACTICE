@@ -1,6 +1,6 @@
 package com.kingshuk.designpatterns.creationalpatterns.factorypattern.shoppingexample.upgraded;
 
-import mycoding.creationalpatterns.factorypattern.shoppingexample.common.ShoppingListItem;
+import com.kingshuk.designpatterns.creationalpatterns.factorypattern.shoppingexample.common.ShoppingListItem;
 
 public class BuilderPattenShoppingListHarness {
     public static void main(String[] args) {
