@@ -5,6 +5,7 @@ import java.io.PrintStream;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 /**Class created to demonstrate the use of the SRP - Single Responsibility Principle
  * Created by CO21321 on 2/26/2018.
@@ -68,8 +69,16 @@ public class SingleResponsibilityPrincipleDemo {
         System.out.println(j);
 
         Persistence p = new Persistence();
-        String filename = "c:\\temp\\journal.txt";
+        
+        //Loading file name from scanner
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Please enter the full path and file name:");
+        
+        String filename = scanner.next();
         p.saveToFile(j, filename, true);
+        
+        scanner.close();
 
         // windows!
         Runtime.getRuntime().exec("notepad.exe " + filename);
