@@ -8,7 +8,6 @@ import java.util.List;
 import java.util.Scanner;
 
 import lombok.Getter;
-import lombok.Setter;
 
 /**
  * Class created to demonstrate the use of the SRP - Single Responsibility
