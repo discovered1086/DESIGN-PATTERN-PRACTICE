@@ -29,4 +29,6 @@ dependencies {
 	
 	// https://mvnrepository.com/artifact/org.javatuples/javatuples
 	compile group: 'org.javatuples', name: 'javatuples', version: '1.2'
+	
+	compile group: 'org.projectlombok', name: 'lombok', version: '1.18.4'
 }
