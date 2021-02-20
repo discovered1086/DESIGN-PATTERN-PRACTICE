@@ -95,3 +95,8 @@ atlassian-ide-plugin.xml
 
 # Ignore Gradle build output directory
 build
+.DS_Store
+DesignPatternsTrainings/.classpath
+DesignPatternsTrainings/.project
+DesignPatternsPractice/.classpath
+DesignPatternsPractice/.project
