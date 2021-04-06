@@ -14,7 +14,7 @@ public class CompositePatternDemo {
         final OrganizationComponent amit = Employee.builder()
                 .name("Amit Biswas").age(33).build();
 
-        final Employee deeksha = Employee.builder()
+        final OrganizationComponent deeksha = Employee.builder()
                 .name("Deeksha Banerjee").age(31).build();
 
         OrganizationComponent department1 = Department.builder()
