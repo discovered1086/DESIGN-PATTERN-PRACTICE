@@ -31,6 +31,9 @@ public class BankAccountCustomer {
             invoker.performAction();
         }
 
+        //See how we are able to separate the actions (commands) from what they do(algorithm/logic), and the algorithm and logic from who initiates/
+        //invokes the action
+
         System.out.println("Final balance of the account: " + bankAccount.getBalance());
     }
 }
